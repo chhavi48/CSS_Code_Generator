@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 15px;
+  margin: 10px;
+
+  box-shadow: 5px 7px 15px -3px #000000;
+}
+
+.color-picker {
+  margin-right: 20px;
+}
+
+.copied-message {
+  color: green;
+  margin-left: 10px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.code-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.code-editor {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: monospace;
+  white-space: pre-wrap;
+}
+
+button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

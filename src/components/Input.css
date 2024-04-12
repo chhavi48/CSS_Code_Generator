@@ -1,0 +1,18 @@
+/* src/components/Input.css */
+.input-container {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .input-label {
+    position: absolute;
+    top: -15px;
+    left: 5px;
+    background-color: black;
+    color: white;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-size: 12px;
+    
+  }
+  
